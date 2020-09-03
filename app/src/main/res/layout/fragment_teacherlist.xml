@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="1dp">
+
+        <ImageView
+            android:id="@+id/location_back_service"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/normal_grey_itembackground"
+            android:paddingLeft="15dp"
+            android:paddingRight="5dp"
+            android:src="@mipmap/arrow_left_54" />
+
+        <LinearLayout
+            android:id="@+id/location_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_toLeftOf="@id/location_quxiao"
+            android:layout_toRightOf="@id/location_back_service"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/search_locate_content_et"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/home_head_et_style"
+                android:cursorVisible="false"
+                android:drawableLeft="@mipmap/home_search"
+                android:ems="10"
+                android:hint="请输入老师/科目/年级/特点"
+                android:inputType="textPersonName"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/location_quxiao"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="取消"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:gravity="center">
+
+        <include layout="@layout/public_dropdown_button" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/font_black_6" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="我是内容！！"
+            android:textColor="@color/colorPrimaryDark" /-->
+
+        <com.jwenfeng.library.pulltorefresh.PullToRefreshLayout
+            android:id="@+id/pull_ToRefreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/teacher_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </ListView>
+
+        </com.jwenfeng.library.pulltorefresh.PullToRefreshLayout>
+
+        <View
+            android:id="@+id/mask"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#80000000" />
+
+        <include layout="@layout/public_dropdown_column_view" />
+
+    </FrameLayout>
+
+    <!--TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="183dp"
+        android:gravity="center"
+        android:text="TextView" /-->
+</LinearLayout>

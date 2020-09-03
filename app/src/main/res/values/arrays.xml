@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="firstpage_bar_labels">
+        <item>数学</item>
+        <item>英语</item>
+        <item>语文</item>
+        <item>物理</item>
+        <item>化学</item>
+        <item>生物</item>
+        <item>历史</item>
+        <item>地理</item>
+        <item>奥数</item>
+        <item>高等数学</item>
+        <item>美术</item>
+        <item>钢琴</item>
+        <item>雅思托福</item>
+        <item>英语四六级</item>
+        <item>更多</item>
+    </array>
+
+    <array name="firstpage_bar_icon">
+        <item>@mipmap/sb_math</item>
+        <item>@mipmap/sb_english</item>
+        <item>@mipmap/sb_chinese</item>
+        <item>@mipmap/sb_physics</item>
+        <item>@mipmap/sb_chemistry</item>
+        <item>@mipmap/sb_biology</item>
+        <item>@mipmap/sb_history</item>
+        <item>@mipmap/sb_geography</item>
+        <item>@mipmap/sb_aoshu</item>
+        <item>@mipmap/sb_highmath</item>
+        <item>@mipmap/sb_painting</item>
+        <item>@mipmap/sb_piano</item>
+        <item>@mipmap/sb_ielts</item>
+        <item>@mipmap/sb_foursix</item>
+        <item>@mipmap/sb_more</item>
+    </array>
+
+    <string-array name="university_name">
+        <item>重庆大学</item>
+        <item>重庆邮电大学</item>
+        <item>西南大学</item>
+        <item>重庆医科大学</item>
+        <item>西南政法大学</item>
+        <item>重庆工商大学</item>
+        <item>四川外语大学</item>
+        <item>重庆师范大学</item>
+        <item>重庆理工大学</item>
+    </string-array>
+
+    <string-array name="university_describe">
+        <item>重庆大学（Chongqing University），简称重大（CQU），位于中央直辖市重庆，是中共中央直管、教育部直属的副部级全国重点大学，由教育部和重庆市共同建设。重大早在民国时期就是中国最杰出的国立大学之一，建国后以“建筑老八校”闻名。现是国家“双一流”、“211工程”和”985工程”首批重点建设的高水平研究型综合性大学；“卓越大学联盟”、“中俄工科大学联盟”成员高校；入选“2011计划”、“111计划”、“卓越工程师教育培养计划”、“卓越法律人才教育培养计划”、“国家建设高水平大学公派研究生项目”；设有研究生院和国家大学科技园。</item>
+        <item>重庆邮电大学简称重邮，坐落于中国重庆市主城区南山风景区内，是中华人民共和国工业和信息化部与重庆市人民政府共建的教学研究型大学，入选国家“中西部高校基础能力建设工程”、国家“卓越工程师教育培养计划”，是国家“2011计划”核心协同高校</item>
+        <item>西南大学（Southwest University）简称西大，坐落于重庆市，是中华人民共和国教育部直属高校，由教育部、农业部与重庆市人民政府共建，是“双一流”世界一流学科建设高校，位列211工程、985工程优势学科创新平台，入选111计划、2011计划、卓越农林人才教育培养计划、卓越教师培养计划、百校工程、国家建设高水平大学公派研究生项目</item>
+        <item>重庆医科大学（ChongQing Medical University），简称“重医”，由中华人民共和国教育部、国家卫生和计划生育委员会和重庆市人民政府共建，入选国家“111计划”、”中西部高校基础能力建设工程“、”卓越医生教育培养计划“、“国家建设高水平大学公派研究生项目”、”特色重点学科项目“，为中国政府奖学金来华留学生接收院校、国家大学生文化素质教育基地、教育部来华留学示范基地、国家重点支持建设的西部地区十四所大学之一。</item>
+        <item>西南政法大学,简称“重医”，由中华人民共和国教育部、国家卫生和计划生育委员会和重庆市人民政府共建，入选国家</item>
+        <item>重庆工商大学,简称“重医”，由中华人民共和国教育部、国家卫生和计划生育委员会和重庆市人民政府共建，入选国家</item>
+        <item>四川外语大学,简称“重医”，由中华人民共和国教育部、国家卫生和计划生育委员会和重庆市人民政府共建，入选国家</item>
+        <item>重庆师范大学，简称“重医”，由中华人民共和国教育部、国家卫生和计划生育委员会和重庆市人民政府共建，入选国家</item>
+        <item>重庆理工大学，简称“重理”，由中华人民共和国教育部、国家卫生和计划生育委员会和重庆市人民政府共建，入选国家</item>
+    </string-array>
+
+    <array name="university_photo">
+        <item>@drawable/cq_cq</item>
+        <item>@drawable/cq_cqyd</item>
+        <item>@drawable/cq_xn</item>
+        <item>@drawable/cq_cqyk</item>
+        <item>@drawable/cq_xnzf</item>
+        <item>@drawable/cq_cqgs</item>
+        <item>@drawable/cq_scwgy</item>
+        <item>@drawable/cq_cqsf</item>
+        <item>@drawable/cq_cqlg</item>
+    </array>
+
+</resources>
